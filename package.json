@@ -1,0 +1,20 @@
+{
+  "name": "songbot",
+  "version": "1.1.0",
+  "description": "Discord bot for looking up and requesting songs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "seed": "node scripts/seed-songs.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.112.4",
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.4.5"
+  }
+}
